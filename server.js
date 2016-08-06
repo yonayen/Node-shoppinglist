@@ -16,9 +16,9 @@ Storage.prototype.add = function(name) {
 };
 
 Storage.prototype.delete = function(id) {
-	// hints: for loop
-	// check to see if the objects have matching ids.
-	
+	hints: for loop
+	[if] check to see if the objects have matching ids.
+
     this.items.splice(index, 1);
 
     return item;
