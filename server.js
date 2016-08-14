@@ -27,7 +27,6 @@ storage.add('Tomatoes');
 storage.add('Peppers');
 
 var app = express();
-
 app.use(express.static('public'));
 
 app.get('/items', function(request, response) {
